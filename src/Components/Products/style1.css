@@ -1,0 +1,140 @@
+.header{
+        font-family: fantasy;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+}
+
+.head-button {
+    margin-left: 400px;
+    background:rgb(71, 56, 168);
+}
+
+.img {
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 200px;
+    box-shadow: 8px 8px #fdc500;
+}
+
+
+.img-cart {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+.img-cart:hover {
+    transform: scale(1.5);
+}
+
+.table {
+    margin-top: 30px;
+}
+.headtable {
+    text-align: center;
+}
+.bodytable {
+    text-align: center;
+}
+.btn {
+    justify-content: center;
+    background: transparent;
+    color: #e31837;
+    font-family: monospace;
+}
+
+.btn2 {
+    background:transparent;
+    color: #fff;
+    font-family: monospace;
+}
+
+.btn3 {
+    justify-content: center;
+    background:transparent;
+    color: #fdc500 ;
+    font-family: monospace;
+}
+
+
+.title{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    font-family:serif;
+}
+
+.title:hover {
+    color: blue;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.2rem;
+    font-family:Tahoma, sans-serif;
+}
+.price {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+.button {
+    font-size: 1rem;
+    font-family: fantasy;
+    padding: 0.5rem 3rem;
+    border: none;
+    background: #e31837;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.button:hover{
+    background: #fdc500;
+}
+
+.date {
+    font-family: tahoma;
+    color: #fff;
+    font-size: 0.8rem;;
+}
+
+.paystack-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #e31837;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+}
+
+.paystack-button:hover {
+    background: #fdc500;
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+.receipt-page{
+    background-color: whitesmoke;
+    color: #000;
+    width: 500px;
+    height: 80vh;
+}
+
+.receipt-btn {
+    background: #e31837;
+    color: #fff;
+    font-size: small;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+    margin-left: 400px;
+}
